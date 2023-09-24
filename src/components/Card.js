@@ -1,18 +1,16 @@
 function Card() {
   return (
-    <div>
-      <div className='image--container'>
-        <img src={require('../images/katie-zaferes.png')} />
+    <div className="card">
+      <img className="card--image" src={require("../images/katie-zaferes.png")} />
+      <div className="card--stats">
+        <img className="card--star" src={require("../images/star.png")} />
+        <span>5.0</span>
+        <span className="gray">(6) &#183;</span>
+        <span className="gray">USA</span>
       </div>
-      <div className='rating-info'>
-        <img src={require('../images/star.png')} />
-        <div>5.0</div>
-        <div>(6) &#183; USA</div>
-      </div>
-      <div>
-        <p>Life Lesson with Katie zaferes</p>
-        <p><strong>From $136</strong> / person</p>
-      </div>
+      <p>Life Lessons with Katie Zaferes</p>
+      <p><span className="bold">From $136</span> / person</p>
+      
     </div>
   )
 }
