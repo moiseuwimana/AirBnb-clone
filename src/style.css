@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  padding: 8px;
 }
 /*first provide the display attribute sizing(height,...) attribute to work*/
 nav { 
@@ -16,4 +17,14 @@ nav {
 }
 .nav--logo {
   max-width: 100px;
+}
+
+.rating-info {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.image--container img{
+  margin: 12px;
+  border-radius: 15px;
 }
